@@ -49,9 +49,9 @@ export default function CreateLock() {
             <h1 className="title title--page">Create Lock</h1>
             <Form className="form--lock">
                 <h2 className="title title--form form__title">Creating a new lock</h2>
-                <div className="form__tip">⭐️ Sensei Shib is audited by Certik: <a href="/">https://leaderboard.certik.io/projects/senseishib</a></div>
+                <div className="form__tip">⭐️ Tokerr Classic is Soon audited: <a href="/">https://leaderboard.certik.io/projects/</a></div>
                 <Input value={form.address} className="form__input-wrapper" name="address" placeholder="Enter token or LP address" onChange={handleInput} title="Token or LP Token address" />
-                <Input value={form.amount} className="form__input-wrapper" name="amount" placeholder="Ex: Sensei Swap" onChange={handleInput} title="Amount" />
+                <Input value={form.amount} className="form__input-wrapper" name="amount" placeholder="Ex: Tokerr Classic PAD" onChange={handleInput} title="Amount" />
                 <div className="input-wrapper input-wrapper--icon form__input-wrapper">
                     <div className="input-wrapper__header">
                         <label className="label">Lock date until (UTC)</label>

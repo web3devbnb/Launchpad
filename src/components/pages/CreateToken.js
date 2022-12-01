@@ -31,8 +31,8 @@ export default function CreateToken() {
                     </div>
                     <Select className="select--token" list={selectList} />
                 </div>
-                <Input title="Name" displayType="input" placeholder="Ex: Sensei Swap" className="form__input-wrapper" type="text" name="name" value={form.name} onChange={handleInput} />
-                <Input title="Symbol" displayType="input" placeholder="Ex: $SENSEI" className="form__input-wrapper" type="text" name="symbol" value={form.symbol} onChange={handleInput} />
+                <Input title="Name" displayType="input" placeholder="Ex: Tokerr Classic PAD" className="form__input-wrapper" type="text" name="name" value={form.name} onChange={handleInput} />
+                <Input title="Symbol" displayType="input" placeholder="Ex: $TC" className="form__input-wrapper" type="text" name="symbol" value={form.symbol} onChange={handleInput} />
                 <Input title="Decimals" displayType="input" placeholder="Ex: 18" className="form__input-wrapper" type="text" name="decimals" value={form.decimals} onChange={handleInput} />
                 <Input title="Total Supply" displayType="input" placeholder="Ex: 100000000" className="form__input-wrapper form__input-wrapper--last" type="number" name="totalSupply" value={form.totalSupply} onChange={handleInput} />
                 <button type="submit" className="button button--red form__submit">Create token</button>

@@ -107,7 +107,7 @@ export default function CreateLaunchpad2() {
                     <Select list={routerSelect} callback={(index) => setForm({ ...form, refundType: routerSelect[index].title })} className="select--token" />
                 </div>
                 <Input type="number" displayType="input" className="form__input-wrapper" placeholder="0" title="Liquidity (%)" name="listingRate" value={form.liquidity} onChange={handleInput} />
-                <Input type="number" displayType="input" className="form__input-wrapper" placeholder="0" title="Listing Rate" name="listingRate" info="1 BNB = 0 $SENSEI" value={form.listingRate} onChange={handleInput} />
+                <Input type="number" displayType="input" className="form__input-wrapper" placeholder="0" title="Listing Rate" name="listingRate" info="1 BNB = 0 $TC" value={form.listingRate} onChange={handleInput} />
                 <p className="form__text">
                     Enter the percentage of raised funds that should be allocated to Liquidity on (Min 51%, Max 100%)
                     If I spend 1 BNB on how many tokens will I receive? Usually this amount is lower that presale rate to allow for a higher listing price on.

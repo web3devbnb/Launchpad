@@ -31,7 +31,7 @@ const menu = [
         id: 1
     },
     {
-        title: "Sensei Lock",
+        title: "Classic Lock",
         submenu: [
             { title: "Create lock", to: "/create_lock", id: 0 },
             { title: "Tokens", to: "/tokens", id: 1 },
@@ -41,7 +41,7 @@ const menu = [
         id: 2
     },
     {
-        title: "Sensei Drop",
+        title: "Classic Drop",
         submenu: [
             { title: "Create airdrop", to: "/create_airdrop", id: 0 },
             { title: "Airdrop list", to: "/airdrop_list", id: 1 },
